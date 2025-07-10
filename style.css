@@ -8,8 +8,12 @@ body {
     background-color: #f0f0f0;
     color: #333;
 }
+
+.content{
+    background-color: white;
+}
+/*Header Section start*/
 .header_main {
-    background-color: #4a90e2;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -43,3 +47,42 @@ body {
     font-weight: 800;
     line-height: 4.5rem;
 }
+/*Header Section End*/
+
+/*2nd Section End*/
+.happy_banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.offer_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1rem;
+    background: white;
+}
+.offer_text h1 {
+    font-size: 4rem;
+    color: red;
+    margin-bottom: 1rem;
+}
+.offer_text h4 {
+    color: red;
+    font-size: .95rem;
+    padding-bottom: .5rem;
+}
+.offer_text h2{
+    font-size: 1.9rem;
+}
+.offer_img {
+    margin-bottom: .5rem;
+}
+.offer_img img {
+    max-width: 600px;
+    height: 100%;
+}
+/*2nd Section End*/
+
